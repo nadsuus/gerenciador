@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Cabecalho from './componetes/Cabecalho';
+// import Footer from './componetes/estilosDasPaginas/Footer';
+// import Nav from './componetes/estilosDasPaginas/Nav';
+import Conteudo from './componetes/Conteudo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Cabecalho />
+      <Nav /> */}
+      <Conteudo tituloDaPagina={"Gerenciador de Favoritos"} />
+      {/* <Footer /> */}
     </div>
   );
 }
